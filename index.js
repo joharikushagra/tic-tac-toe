@@ -30,7 +30,9 @@ startGame();
 function turnClick(square) {
   if (typeof origboard[square.target.id] === "number") {
     turn(square.target.id, humanPlayer);
-    if (!checkTie()) turn(bestSpot(), aiPlayer);
+    setTimeout(()=>{
+      if (!checkTie()) turn(bestSpot(), aiPlayer);
+    },2000);
   }
 }
 
