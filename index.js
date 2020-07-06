@@ -32,7 +32,7 @@ function turnClick(square) {
     turn(square.target.id, humanPlayer);
     setTimeout(()=>{
       if (!checkTie()) turn(bestSpot(), aiPlayer);
-    },2000);
+    },500);
   }
 }
 
