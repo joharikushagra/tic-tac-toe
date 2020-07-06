@@ -7,6 +7,16 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 }
 
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-decoration: underline; */
+    text-align: center;
+    color:white;
+}
+h1:hover{
+    transition: 2s;
+    letter-spacing: 1.5em;
+}
 .cell{
     width:100px;
     height:100px;
